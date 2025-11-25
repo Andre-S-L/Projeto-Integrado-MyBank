@@ -1,0 +1,1 @@
+Nota: o projeto esta passando pela fase final de correção de bugs, e até a versão 4.7, especificamente a area de administrador pode conter erros.
