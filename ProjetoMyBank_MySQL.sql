@@ -65,4 +65,4 @@ ALTER TABLE tbl_conta ADD CONSTRAINT FK_tbl_conta_2
     
 INSERT INTO tbl_agencia (Agencia_Dinheiro_Total, Agencia_Juros_Atual, Agencia_Devolucao_Prazo_Maximo, Agencia_Nome) VALUES ('0.00', '9.09', '60', 'MyBank');
 INSERT INTO tbl_cliente (Cliente_Nome, Cliente_CPF, Cliente_Admin) VALUES ('Admin', '000.000.000-00', '1');
-INSERT INTO tbl_conta (Conta_Senha, Conta_Ativa, fk_Conta_Cliente_ID) VALUES ('ADMIN', '1', '1');
+INSERT INTO tbl_conta (Conta_Senha, Conta_PIN, Conta_QntAtual, Conta_Ativa, fk_Conta_Cliente_ID) VALUES ('ADMIN', '0000', '0.00', '1', '1');
